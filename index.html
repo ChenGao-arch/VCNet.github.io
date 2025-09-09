@@ -321,31 +321,31 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/lightup.jpg" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Schematic diagram of different illumination adjustment strategies. (a) The illumination map for each view is estimated separately. (b) One uniform illumination map is estimated for each view. (c) Our method considers all views and estimates the illumination map for each view. 
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/motivation-low-light2.jpg" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Illustration of our self-supervised view-consistent loss. The reference point x has the disparity d(x) = 1. Compared with other points (labeled as red and purple), the corresponding point (labeled as orange) has the minimum variance. We propose to directly use the minimum variance as our objective function l<sub>vc</sub> to minimize.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/r_output_new.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Visualization of the illumination maps in L3F-Dynamic task. For darker scenes, the values in the estimated illumination adjustment map is larger.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <img src="static/images/epi.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        The estimated illumination EPI w/ and w/o loss<sub>vc</sub>. The former keeps the view consistent as the true EPI with normal light.
       </h2>
     </div>
   </div>
@@ -379,10 +379,10 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser image -->
-      <img src="static/videos/PAM-20240702.jpg" alt="Teaser Image" id="tree" style="width:100%; height:auto;">
+      <img src="static/images/Low-Light-network-3.jpg" alt="Teaser Image" id="tree" style="width:100%; height:auto;">
       <!-- TODO: Replace with your image description -->
       <h2 class="subtitle has-text-centered">
-        The overview of our disparity estimation network. After feature extraction, the epipolar parallax attention maps are constructed by the H-EPA and V-EPA. The epipolar parallax attention maps are aggregated based on the epipolar consistent attention aggregation. Finally, the disparity map is generated through the disparity regression.
+        The overview of our proposed VCNet network, which consists of an illumination estimator VCAIA and a corruption restorer VCRM. In VCAIA, the illumination map is estimated and multiplied to the original input to light up the illumination. VCRM, whose basic unit is VCFAU, further recovers the details of the light-up image and outputs the final results.
       </h2>
     </div>
   </div>
@@ -396,31 +396,31 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/Table1_loghlight.jpg" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Quantitive Comparisons of Low Light LF Image Enhancement Methods in L3F-Dynamic Task w/ w/o VCAIA.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/Table2_loghlight.jpg" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Quantitive Comparisons with Single-Frame-based Low Light Enhancement Methods on the L3F-dynamic Task.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/Table3_loghlight.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Quantitative Comparison on Real-world L3F-Wild Data.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <img src="static/images/Table4_loghlight.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Quantitative Comparisons on L3F-fixed Task.
       </h2>
     </div>
   </div>
@@ -430,38 +430,45 @@
 <!-- End image carousel -->
 
 
-<!-- Image carousel -->
+  <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/low_light-mix_731.jpg" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Visual comparison on L3F-Dynamic task, where the central view and EPIs of the recovery LFs are shown. 
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/low-light-wild(1).jpg" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Visual comparison on the L3F-Wild dataset, where the central view of LFs is shown.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/low-light-wild(2).jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Visual comparison of the enhanced result (top row) and input central view (second row) of one scene with different low-light levels in the L3F-Wild dataset.
+       </h2>
+     </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/lowlight_time_731.jpg" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Performance comparison in dynamic illumination tasks. The size of the points represents the run time to process one LF.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <img src="static/images/PR.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        The PR curves map comparison of L3F-20, 50, 100 dataset, in which how well the views consistency preserved is shown. 
       </h2>
     </div>
   </div>
@@ -469,11 +476,6 @@
 </div>
 </section>
 <!-- End image carousel -->
-
-
-
-
-
 
 
 <!-- Paper poster -->
